@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   
+body{
+height: 650px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #292E37;
+width: 100%;
+max-width: 1000px;
+background-color: #292E37;
+}
+   
+.calculator{
+flex: 0 0 95%;
+}
+
+.screen{
+width: 100%;
+height: 380px;
+font-size: 7rem;
+padding: 0.5rem;
+color: #F5F5F5;
+border:none;
+background-color: #292E37;
+text-align: right;
+font-weight: lighter;
+}
+
+.buttons{
+display: flex;
+flex-wrap: wrap;
+background-color: #292E37;
+}
+   
+button{
+flex:0 0 25%;
+padding: 0.25rem 0;
+background-color: #2F3747;
+color: #F5F5F5;
+border: 1.5px solid #292E37;
+width: 111.7px;
+height: 80px;
+cursor: pointer;
+font-size: 25px;
+}
+
+button:hover{
+background-color:#292E37;
+font-size: 32px;
+}
+
+.btn-reset{
+background-color:#E28A05;
+font-size: 25px;
+}
+
+.btn-reset:hover{
+background-color:#4EA0A6;
+font-size: 32px;
+}
+
+.btn-reset, .btn-equal{
+flex:0 0 50%;
+}
+
+.btn-equal{
+background-color: #4EA0A6;
+ }
+   
+.btn-equal:hover{
+background-color:#E28A05;
+font-size: 32px;
+}
+
+.btn-multiply{
+background-color: #4EA0A6;
+font-size: 16px;
+}
+   
+.btn-multiply:hover{
+background-color:#E28A05;
+}
+
+.btn-minus{
+background-color: #4EA0A6;
+}
+
+.btn-minus:hover{
+background-color:#E28A05;
+font-size: 32px;
+}
+
+.btn-plus{
+background-color: #4EA0A6;
+}
+
+.btn-plus:hover{
+background-color:#E28A05;
+}
+
+.btn-clear{
+background-color: #E28A05;
+}
+
+.btn-clear:hover{
+background-color:#4EA0A6;
+font-size: 32px;
+}
+  
+.btn-num{
+font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+}

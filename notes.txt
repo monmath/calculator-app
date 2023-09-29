@@ -1,0 +1,23 @@
+/* 
+
+Jeg syntes denne oppgaven var vanskelig og utfordrende, men svært lærerikt!
+
+Jeg har stort sett jobbet alene, med litt hjelp fra 
+Markus K. Etter mye "googling", så fant jeg ut av det til slutt,  og fikk kalkulatoren til å fungere og noenlunde samme design
+som jeg gjorde i Figma. Jeg startet med å designe i Figma, html-koding, javascript og til slutt styling i CSS.
+
+Neste gang det skal jobbes i grupper, så kan det kanskje være litt lurt at det er obligatorisk oppmøte.
+Det var nesten ingen der da jeg kom på mandag, og gjorde det litt vanskelig å samarbeide i grupper.
+Jeg ble flyttet fra den ene gruppen til den andre, og fikk ikke tak i de jeg skulle på gruppe med via Discord. 
+Jeg hadde derfor vanskeligheter med å komme igang.
+
+Men det ordnet seg til slutt. 
+
+Jeg har dessverre ikke fått kommentert så mye (jeg har kommentert litt på engelsk.)
+Det var dette jeg klarte, og jeg kunne gjort det bedre hadde jeg hatt litt bedre tid på meg.
+Håper dere blir noenlunde fornøyd :)
+
+Link Figma: 
+https://www.figma.com/file/CdH2pIB7ywdkIXLAmILWZC/Untitled?node-id=0%3A1
+
+*/

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Calculator</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- section class -  element used to group together related elements.-->
+<section class="calculator">
+  <form>
+   <input type="text" name="" id="" class="screen">
+  </form>
+
+  <div class="buttons">
+<!-- The type attribute specifies the type of button. -->
+   <!--Row 4 - Buttons 7,8,9 and delete -->
+   <button type="button" class="btn btn-num" data-num="7">7</button>
+   <button type="button" class="btn btn-num" data-num="8">8</button>
+   <button type="button" class="btn btn-num" data-num="9">9</button>
+   <!--Delete button -->
+   <button type="clear" class="btn btn-clear">DEL</button>
+
+   <!--Row 3 - Buttons 4,5,6 and + -->
+   <button type="button" class="btn btn-num" data-num="4">4</button>
+   <button type="button" class="btn btn-num" data-num="5">5</button>
+   <button type="button" class="btn btn-num" data-num="6">6</button>
+   <button type="button" class="btn btn-plus" data-num="+">+</button>
+
+   <!-- Row 2 - Buttons 1,2,3 and minus -->
+   <button type="button" class="btn btn-num" data-num="1">1</button>
+   <button type="button" class="btn btn-num" data-num="2">2</button>
+   <button type="button" class="btn btn-num" data-num="3">3</button>
+   <button type="button" class="btn btn-minus" data-num="-">-</button>
+
+   <!-- Row 2 - Buttons ., 0, divide and multiply -->
+   <button type="button" class="btn btn-num" data-num=".">.</button>
+   <button type="button" class="btn btn-num" data-num="0">0</button>
+   <button type="button" class="btn btn-divide" data-num="/">/</button>
+   <button type="button" class="btn btn-multiply" data-num="x">x</button>
+
+   <!-- Buttons row 1 -->
+   <!-- Reset button -->
+   <button type="reset" class="btn btn-reset" >RESET</button>
+   <button type="button" class="btn-equal btn-equal">=</button>
+
+  </div>
+ </section>
+
+ <script src="app.js"></script>
+</body>
+
+</html>
